@@ -1,0 +1,21 @@
+{
+    "name": "thainp/helper-common",
+    "description": "Helper function for PHP",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Thainp\\HelperCommon\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ThaiNP",
+            "email": "phuongthai98@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
